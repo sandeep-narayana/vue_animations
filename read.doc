@@ -25,3 +25,10 @@ before leave , leave, after leave
 https://www.youtube.com/watch?v=sWxL3c9rvc4&list=PL4cUxeGkcC9ghm7-iTfS9n468Kp7l9Ipu&index=9  (timing 1:00)
 how to attach (timing 1:39)
 
+Using GSAP - liabrary for animation ==> work very good with transition hooks
+go to greensock.com  to learn more about it
+
+install
+npm install gsap
+
+
