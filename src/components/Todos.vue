@@ -7,7 +7,7 @@
       placeholder="Add a new todo..."
     />
     <div v-if="todos.length">
-      <transition-group tag="ul" name="list">
+      <transition-group tag="ul" name="list" appear>
         <li v-for="todo in todos" :key="todo.id" @click="deleteTodo(todo.id)">
           {{ todo.text }}
         </li>
