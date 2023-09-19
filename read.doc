@@ -12,3 +12,16 @@ multiple transition can be applied
 
 
 transition-group
+
+
+Transition javascript hooks
+-can file javascript code at different stages of the transition 
+
+Enter Hooks 
+before enter , enter , after enter
+
+Leave Hooks
+before leave , leave, after leave
+https://www.youtube.com/watch?v=sWxL3c9rvc4&list=PL4cUxeGkcC9ghm7-iTfS9n468Kp7l9Ipu&index=9  (timing 1:00)
+how to attach (timing 1:39)
+
