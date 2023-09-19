@@ -1,0 +1,11 @@
+on entering the page
+.enter_from
+.enter-to
+.enter-active
+
+on leaving the page
+.leave-frpm ,to, active
+
+
+can add fade 
+multiple transition can be applied
