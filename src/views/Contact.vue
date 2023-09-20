@@ -8,7 +8,7 @@
       @before-enter="beforeEnter"
       @enter="enter"
     >
-      <li v-for="icon in icons" :key="icon.name">
+      <li v-for="(icon, index) in icons" :key="icon.name" :data-index="index">
         <span class="material-icons">{{ icon.name }}</span>
         <div>{{ icon.text }}</div>
       </li>
@@ -39,6 +39,7 @@ export default {
         y: 0,
         duration: 0.8,
         onComplete: done,
+        delay: el.dataset.index * 0.2,
       });
     };
 
